@@ -167,9 +167,19 @@ figure{
     background-size: cover;
 }
 
+.img-content29 {
+  position: relative;
+  margin-left: auto;
+}
+
 #pared14 {
     background-image: url("../images/background2.jpg");
     background-size: cover;
+}
+
+.img-content30 {
+  position: relative;
+  margin-left: auto;
 }
 
 #pared15 {
@@ -177,9 +187,36 @@ figure{
     background-size: cover;
 }
 
+.img-content32 {
+  position: relative;
+  margin-left: auto;
+}
+
+.img-content33 {
+  position: relative;
+  margin: auto;
+  top: 20px;
+}
+
+.img-content34 {
+  position: relative;
+  top: 40px;
+}
+
+
 #pared16 {
     background-image: url("../images/background2.jpg");
     background-size: cover;
+}
+
+.img-content35 {
+  width: 350px;
+}
+
+.img-content36 {
+  position: relative;
+  margin-left: auto;
+  top: 40px;
 }
 
 #pared17 {
@@ -187,9 +224,33 @@ figure{
     background-size: cover;
 }
 
+.img-content37 {
+  position: relative;
+  margin-left: auto;
+  width: 150px;
+}
+
+.img-content38 {
+  position: relative;
+  margin: auto;
+  width: 100px;
+}
+
+.img-content39 {
+  top: 20px;
+  width: 150px;
+}
+
 #pared18 {
     background-image: url("../images/background2.jpg");
     background-size: cover;
+}
+
+.img-content40 {
+  position: relative;
+  margin: auto;
+  top: 150px;
+  width: 400px;
 }
 
 #pared19 {
@@ -197,7 +258,30 @@ figure{
     background-size: cover;
 }
 
+.img-content41 {
+  position: relative;
+  margin: auto;
+  top: 150px;
+  width: 400px;
+}
+
 #pared20 {
     background-image: url("../images/background2.jpg");
     background-size: cover;
+}
+
+.img-content42 {
+  width: 150px;
+}
+
+.img-content43 {
+  position: relative;
+  margin: auto;
+  width: 100px;
+}
+
+.img-content44 {
+  position: relative;
+  margin-left: auto;
+  width: 150px;
 }
