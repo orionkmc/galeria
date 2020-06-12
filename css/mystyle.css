@@ -1,0 +1,203 @@
+#entrada {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+figure img{
+  width: 100%;
+}
+
+figure{
+    border: solid 6px black;
+    width: 35%;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+
+.img-content1 {
+  margin-left: auto;
+}
+
+.img-content2 {
+  position: relative;
+  bottom: 160px;
+}
+
+#pared2 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+.img-content3 {
+  margin-right: auto;
+}
+
+.img-content4 {
+  position: relative;
+  margin-left: auto;
+  bottom: 75px;
+}
+
+
+#pared3 {
+  background-image: url("../images/background2.jpg");
+  background-size: cover;
+}
+
+.img-content5 {
+  position: relative;
+  margin: auto;
+  left: 140px;
+}
+
+#pared4 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+.img-content9 {
+  margin-left: auto;
+}
+
+#pared5 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+.img-content10,
+.img-content12 {
+  margin-left: auto;
+}
+
+#pared6 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+.img-content14 {
+  margin-left: auto;
+}
+
+#pared7 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+.img-content16 {
+  position: relative;
+  margin-left: auto;
+  top: 170px;
+}
+
+#pared8 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+.img-content19 {
+  position: relative;
+  top: 50px;
+}
+
+.img-content20 {
+  position: relative;
+  margin-left: auto;
+  bottom: 390px;
+}
+
+#pared9 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+.img-content21 {
+  position: relative;
+  margin: auto;
+  top: 150px;
+  width: 350px;
+}
+
+#pared10 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+.img-content23 {
+  position: relative;
+  margin-left: auto;
+  width: 260px;
+  top: 50px;
+}
+
+#pared11 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+.img-content24 {
+  position: relative;
+  top: 130px;
+}
+
+.img-content25 {
+  position: relative;
+  margin-left: auto;
+  bottom: 130px;
+}
+
+#pared12 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+.img-content26 {
+  position: relative;
+  top: 215px;
+}
+
+.img-content27 {
+  position: relative;
+  margin-left: auto;
+  bottom: 80px;
+}
+
+#pared13 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+#pared14 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+#pared15 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+#pared16 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+#pared17 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+#pared18 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+#pared19 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
+
+#pared20 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
