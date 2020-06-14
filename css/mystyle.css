@@ -247,8 +247,9 @@ figure{
 }
 
 .img-content39 {
-  top: 20px;
+  position: relative;
   width: 150px;
+  bottom: 20px;
 }
 
 #pared18 {
@@ -294,6 +295,7 @@ figure{
   position: relative;
   margin-left: auto;
   width: 150px;
+  bottom: 20px;
 }
 
 /*.impress-enabled .step {
