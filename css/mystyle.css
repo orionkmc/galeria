@@ -3,6 +3,10 @@
     background-size: cover;
 }
 
+.demo-image {
+    cursor: url("images/plus_cursor.png") 25 25, pointer;
+}
+
 figure img{
   width: 100%;
 }
