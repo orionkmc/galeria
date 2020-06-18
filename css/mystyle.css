@@ -1,22 +1,25 @@
 #entrada {
-    background-image: url("../images/background.jpg");
-    background-size: cover;
+    background-color: #f5f5f5;    background-size: cover;
 }
 
 .demo-image {
     cursor: url("images/plus_cursor.png") 25 25, pointer;
 }
 
-figure img{
+figure.figure img {
   width: 100%;
 }
 
 figure{
-    border: solid 6px black;
     width: 35%;
     margin: 0;
     padding: 20px;
-    background-color: white;
+    background-color: #f5f5f5;
+}
+
+figure img {
+  box-shadow: 0 0 40px #000000;
+  border: solid 1px #393e46;
 }
 
 .img-content1 {
@@ -25,11 +28,11 @@ figure{
 
 .img-content2 {
   position: relative;
-  bottom: 160px;
+  bottom: 120px;
 }
 
 #pared2 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -45,7 +48,7 @@ figure{
 
 
 #pared3 {
-  background-image: url("../images/background2.jpg");
+  background-color: #f5f5f5
   background-size: cover;
 }
 
@@ -56,7 +59,7 @@ figure{
 }
 
 #pared4 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -65,7 +68,7 @@ figure{
 }
 
 #pared5 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -75,7 +78,7 @@ figure{
 }
 
 #pared6 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -84,7 +87,7 @@ figure{
 }
 
 #pared7 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -95,7 +98,7 @@ figure{
 }
 
 #pared8 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -111,7 +114,7 @@ figure{
 }
 
 #pared9 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -123,7 +126,7 @@ figure{
 }
 
 #pared10 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -135,7 +138,7 @@ figure{
 }
 
 #pared11 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -151,7 +154,7 @@ figure{
 }
 
 #pared12 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -167,7 +170,7 @@ figure{
 }
 
 #pared13 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -178,7 +181,7 @@ figure{
 }
 
 #pared14 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -188,7 +191,7 @@ figure{
 }
 
 #pared15 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -215,7 +218,7 @@ figure{
 
 
 #pared16 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -230,7 +233,7 @@ figure{
 }
 
 #pared17 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -253,7 +256,7 @@ figure{
 }
 
 #pared18 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -265,7 +268,7 @@ figure{
 }
 
 #pared19 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -277,7 +280,7 @@ figure{
 }
 
 #pared20 {
-    background-image: url("../images/background2.jpg");
+    background-color: #f5f5f5;
     background-size: cover;
 }
 
@@ -298,10 +301,10 @@ figure{
   bottom: 20px;
 }
 
-/*.impress-enabled .step {
+.impress-enabled .step {
     margin: 0;
     opacity: 0.1;
     transition:         opacity 1s;
 }
 
-.impress-enabled .step.active { opacity: 1 }*/
+.impress-enabled .step.active { opacity: 1 }
