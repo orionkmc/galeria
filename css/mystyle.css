@@ -301,10 +301,12 @@ figure img {
   bottom: 20px;
 }
 
-.impress-enabled .step {
+/*.impress-enabled .step {
     margin: 0;
     opacity: 0.1;
     transition:         opacity 1s;
 }
 
-.impress-enabled .step.active { opacity: 1 }
+.impress-enabled .step.active { 
+  opacity: 1;
+}*/
