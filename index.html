@@ -10,15 +10,29 @@
   <link href="css/mystyle.css" rel="stylesheet"/>
 </head>
 <style>
+  body{
+    margin: 0px;
+  }
   .demo-image {
     cursor: url("images/plus_cursor.png") 25 25, pointer;
   }
+  @media(min-width: 1000px){
+    .step{
+      opacity: 1!important;
+    }
+    .techo{
+      background-color: #000000f;
+      height: 60%;
+    }
+    .piso{
+      background-color: gray;
+      height: 60%;
+    }
+  }
 </style>
 <body class="impress-not-supported">
-
-<main>
-  <div style="background-color: #00000f; height: 60%"></div>
-  <div style="background-color: gray; height: 40%"></div>
+    <div class="techo"></div>
+    <div class="piso"></div>
   <div class="fallback-message">
     <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
     <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
@@ -72,7 +86,7 @@
       </figure>
     </div>
     
-    <!-- <div id="pared6" class="step" data-x="1750" data-y="0" data-z="350" data-rotate-y="-90" data-scale="2">
+    <div id="pared6" class="step" data-x="1750" data-y="0" data-z="350" data-rotate-y="-90" data-scale="1">
       <figure class="figure img-content13">
         <img src="images/img6_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img6_1.jpg" class="demo-image img">
       </figure>
@@ -82,18 +96,18 @@
       <figure class="figure img-content15">
         <img src="images/img6_3.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img6_3.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   
-   <!--  <div id="pared7" class="step" data-x="1400" data-y="0" data-z="700" data-rotate-y="-180" data-scale="2">
+    <div id="pared7" class="step" data-x="1400" data-y="0" data-z="700" data-rotate-y="-180" data-scale="1">
       <figure class="figure img-content16">
         <img src="images/img7_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img7_1.jpg" class="demo-image img">
       </figure>
       <figure class="figure img-content17">
         <img src="images/img7_2.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img7_2.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
     
-    <!-- <div id="pared8" class="step" data-x="1050" data-y="0" data-z="1050" data-rotate-y="-90" data-scale="2">
+    <div id="pared8" class="step" data-x="1050" data-y="0" data-z="1050" data-rotate-y="-90" data-scale="1">
       <figure class="figure img-content18">
         <img src="images/img3_2.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img3_2.jpg" class="demo-image img">
       </figure>
@@ -103,24 +117,24 @@
       <figure class="figure img-content20">
         <img src="images/img3_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img3_1.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   
-    <!-- <div id="pared9" class="step" data-x="1050" data-y="0" data-z="1750" data-rotate-y="-90" data-scale="2">
+    <div id="pared9" class="step" data-x="1050" data-y="0" data-z="1750" data-rotate-y="-90" data-scale="1">
       <figure class="figure img-content21">
         <img src="images/img4_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img4_1.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   
-    <!-- <div id="pared10" class="step" data-x="1400" data-y="0" data-z="2100" data-scale="2">
+    <div id="pared10" class="step" data-x="1400" data-y="0" data-z="2100" data-scale="1">
       <figure class="figure img-content22">
         <img src="images/img4_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img4_1.jpg" class="demo-image img">
       </figure>
       <figure class="figure img-content23">
         <img src="images/img3_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img3_1.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   
-    <!-- <div id="pared11" class="step" data-x="1750" data-y="0" data-z="2450" data-rotate-y="-90" data-scale="2">
+    <div id="pared11" class="step" data-x="1750" data-y="0" data-z="2450" data-rotate-y="-90" data-scale="1">
       <figure class="figure img-content24">
         <img src="images/img_2_3.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img_2_3.jpg" class="demo-image img">
       </figure>
@@ -128,35 +142,35 @@
         <img src="images/img4_2.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img4_2.jpg" class="demo-image img">
       </figure>
     </div>
-   -->
-    <!-- <div id="pared12" class="step" data-x="1750" data-y="0" data-z="3150" data-rotate-y="-90" data-scale="2">
+  
+    <div id="pared12" class="step" data-x="1750" data-y="0" data-z="3150" data-rotate-y="-90" data-scale="1">
       <figure class="figure img-content26">
         <img src="images/img4_2.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img4_2.jpg" class="demo-image img">
       </figure>
       <figure class="figure img-content27">
         <img src="images/img_2_3.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img_2_3.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   
-    <!-- <div id="pared13" class="step" data-x="1400" data-y="0" data-z="3500" data-rotate-y="-180" data-scale="2">
+    <div id="pared13" class="step" data-x="1400" data-y="0" data-z="3500" data-rotate-y="-180" data-scale="1">
       <figure class="figure img-content28">
           <img src="images/img_1_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img_1_1.jpg" class="demo-image img">
       </figure>
       <figure class="figure img-content29">
           <img src="images/img_1_2.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img_1_2.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   
-    <!-- <div id="pared14" class="step" data-x="700" data-y="0" data-z="3500" data-rotate-y="-180" data-scale="2">
+    <div id="pared14" class="step" data-x="700" data-y="0" data-z="3500" data-rotate-y="-180" data-scale="1">
       <figure class="figure img-content30">
           <img src="images/img_1_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img_1_1.jpg" class="demo-image img">
       </figure>
       <figure class="figure img-content31">
           <img src="images/img_1_2.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img_1_2.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   
-    <!-- <div id="pared15" class="step" data-x="350" data-y="0" data-z="3150" data-rotate-y="-270" data-scale="2">
+    <div id="pared15" class="step" data-x="350" data-y="0" data-z="3150" data-rotate-y="-270" data-scale="1">
       <figure class="figure img-content32">
         <img src="images/img5_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img5_1.jpg" class="demo-image img">
       </figure>
@@ -166,18 +180,18 @@
       <figure class="figure img-content34">
         <img src="images/img5_3.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img5_3.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   
-    <!-- <div id="pared16" class="step" data-x="0" data-y="0" data-z="2800" data-rotate-y="-180" data-scale="2">
+    <div id="pared16" class="step" data-x="0" data-y="0" data-z="2800" data-rotate-y="-180" data-scale="1">
       <figure class="figure img-content35">
           <img src="images/img7_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img7_1.jpg" class="demo-image img">
       </figure>
       <figure class="figure img-content36">
           <img src="images/img_1_2.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img_1_2.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   
-   <!--  <div id="pared17" class="step" data-x="-350" data-y="0" data-z="2450" data-rotate-y="-270" data-scale="2">
+    <div id="pared17" class="step" data-x="-350" data-y="0" data-z="2450" data-rotate-y="-270" data-scale="1">
       <figure class="figure img-content37">
         <img src="images/img3_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img3_1.jpg" class="demo-image img">
       </figure>
@@ -187,21 +201,21 @@
       <figure class="figure img-content39">
         <img src="images/img_1_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img_1_1.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   
-   <!--  <div id="pared18" class="step" data-x="-350" data-y="0" data-z="1750" data-rotate-y="-270" data-scale="2">
+    <div id="pared18" class="step" data-x="-350" data-y="0" data-z="1750" data-rotate-y="-270" data-scale="1">
       <figure class="figure img-content40">
         <img src="images/img5_3.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img5_3.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   
-    <!-- <div id="pared19" class="step" data-x="-350" data-y="0" data-z="1050" data-rotate-y="-270" data-scale="2">
+    <div id="pared19" class="step" data-x="-350" data-y="0" data-z="1050" data-rotate-y="-270" data-scale="1">
       <figure class="figure img-content41">
         <img src="images/img6_2.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img6_2.jpg" class="demo-image img">
       </figure>
     </div>
-   -->
-    <!-- <div id="pared20" class="step" data-x="-350" data-y="0" data-z="350" data-rotate-y="-270" data-scale="2">
+
+    <div id="pared20" class="step" data-x="-350" data-y="0" data-z="350" data-rotate-y="-270" data-scale="1">
       <figure class="figure img-content42">
         <img src="images/img3_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img3_1.jpg" class="demo-image img">
       </figure>
@@ -211,11 +225,10 @@
       <figure class="figure img-content44">
         <img src="images/img_1_1.jpg" alt="" data-title="Peinador de la reina" data-caption="Alhambra/Granada" data-image="images/img_1_1.jpg" class="demo-image img">
       </figure>
-    </div> -->
+    </div>
   </div>
   <div id="impress-toolbar"></div>
   <div id="impress-help"></div>
-</main>
 
 <script type="text/javascript" src="js/impress.js"></script>
 <!-- <script type="text/javascript" src="src/lib/gc.js"></script>
@@ -237,5 +250,82 @@
 <script>impress().init();</script>
 <script src='js/intense.js'></script>
 <script type="text/javascript" src="js/myscript.js"></script>
+<script>
+  evaluar();
+  window.addEventListener('hashchange', function() {
+    evaluar();
+  });
+
+  function evaluar(e){
+    a = location.href.split('#/')[1]
+    console.log(a);
+    if (a == 'entrada') {
+      allBlock();
+      document.querySelector('#pared16').style.display = "none";
+    } else if (a == 'pared2') {
+      allBlock();
+      document.querySelector('#pared5').style.display = "none";
+    } else if (a == 'pared4') {
+      allBlock();
+      document.querySelector('#pared7').style.display = "none";
+      document.querySelector('#pared10').style.display = "none";
+    } else if (a == 'pared5') {
+      allBlock();
+      document.querySelector('#pared2').style.display = "none";
+    } else if (a == 'pared6') {
+      allBlock();
+      document.querySelector('#pared20').style.display = "none";
+    } else if (a == 'pared7') {
+      allBlock();
+      document.querySelector('#pared4').style.display = "none";
+    } else if (a == 'pared8') {
+      allBlock();
+      document.querySelector('#pared19').style.display = "none";
+    } else if (a == 'pared9') {
+      allBlock();
+      document.querySelector('#pared18').style.display = "none";
+    } else if (a == 'pared10') {
+      allBlock();
+      document.querySelector('#pared13').style.display = "none";
+    } else if (a == 'pared11') {
+      allBlock();
+      document.querySelector('#pared17').style.display = "none";
+    } else if (a == 'pared12') {
+      allBlock();
+      document.querySelector('#pared15').style.display = "none";
+    } else if (a == 'pared13') {
+      allBlock();
+      document.querySelector('#pared10').style.display = "none";
+      document.querySelector('#pared7').style.display = "none";
+    } else if (a == 'pared15') {
+      allBlock();
+      document.querySelector('#pared12').style.display = "none";
+    } else if (a == 'pared16') {
+      allBlock();
+      document.querySelector('#entrada').style.display = "none";
+    } else if (a == 'pared17') {
+      allBlock();
+      document.querySelector('#pared11').style.display = "none";
+    } else if (a == 'pared18') {
+      allBlock();
+      document.querySelector('#pared9').style.display = "none";
+    } else if (a == 'pared19') {
+      allBlock();
+      document.querySelector('#pared8').style.display = "none";
+    } else if (a == 'pared20') {
+      allBlock();
+      document.querySelector('#pared6').style.display = "none";
+    } else {
+      allBlock();
+    }
+  }
+
+  function allBlock(){
+    inputs = document.querySelectorAll('.step');
+    for (i = 0; i < inputs.length; i++) {
+      inputs[i].style.display = "block";
+    }
+  }
+</script>
 </body>
 </html>
