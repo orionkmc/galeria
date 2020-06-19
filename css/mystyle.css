@@ -1,9 +1,27 @@
-#entrada {
-    background-color: #f5f5f5;    background-size: cover;
+body{
+  margin: 0px;
 }
 
 .demo-image {
-    cursor: url("images/plus_cursor.png") 25 25, pointer;
+  cursor: url("../images/plus_cursor.png") 25 25, pointer;
+}
+
+@media(min-width: 1000px){
+  .step{
+    opacity: 1!important;
+  }
+  .techo{
+    background-color: #000000f;
+    height: 60%;
+  }
+  .piso{
+    background-color: gray;
+    height: 60%;
+  }
+}
+
+#entrada {
+    background-color: #f5f5f5;    background-size: cover;
 }
 
 figure.figure img {
