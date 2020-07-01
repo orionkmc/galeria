@@ -187,6 +187,7 @@ var Intense = (function() {
     container = document.createElement("figure");
     container.appendChild(target);
     applyProperties(container, containerProperties);
+    container.className = "modal";
 
     var imageProperties = {
       cursor:

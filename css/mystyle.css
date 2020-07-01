@@ -328,3 +328,9 @@ figure img {
 .impress-enabled .step.active { 
   opacity: 1;
 }*/
+
+body.modal-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}

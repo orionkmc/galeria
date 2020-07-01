@@ -14,7 +14,6 @@ window.addEventListener('hashchange', function() {
 
 function evaluar(e){
   a = location.href.split('#/')[1]
-  console.log(a);
   if (a == 'entrada') {
     allBlock();
     document.querySelector('#pared16').style.display = "none";
@@ -81,4 +80,14 @@ function allBlock(){
   for (i = 0; i < inputs.length; i++) {
     inputs[i].style.display = "block";
   }
+}
+
+// ocultar scroll
+
+const img = document.querySelectorAll('.demo-image');
+
+for (i = 0; i < img.length; i++) {
+  img[i].addEventListener('click', function() {
+    document.querySelector('body').className = "modal-open";
+  });
 }
