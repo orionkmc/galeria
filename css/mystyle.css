@@ -28,16 +28,25 @@ figure.figure img {
   width: 100%;
 }
 
-figure{
+figure a {
+  border: none;
+  background: none;
+  text-shadow: none;
+}
+
+figure a:hover {
+  background: none;
+  text-shadow: none;
+}
+
+figure {
     width: 35%;
     margin: 0;
     padding: 20px;
-    background-color: #f5f5f5;
 }
 
 figure img {
   box-shadow: 0 0 40px #000000;
-  border: solid 1px #393e46;
 }
 
 .img-content1 {
@@ -66,7 +75,7 @@ figure img {
 
 
 #pared3 {
-  background-color: #f5f5f5
+  background-color: #f5f5f5;
   background-size: cover;
 }
 
@@ -328,9 +337,3 @@ figure img {
 .impress-enabled .step.active { 
   opacity: 1;
 }*/
-
-body.modal-open {
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-}

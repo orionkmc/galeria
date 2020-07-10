@@ -29,7 +29,7 @@
 /* Body & steps */
 body {
     font-family: 'PT Sans', sans-serif;
-    min-height: 740px;
+   /* min-height: 740px;*/
 
     background: #00000f;
     color: rgb(102, 102, 102);
@@ -66,6 +66,12 @@ body {
 /*
     Make inactive steps a little bit transparent.
 */
+
+.impress-enabled .step.entrada {
+    margin: 0;
+    opacity: 0;
+    transition:         opacity 1s;
+}
 
 /*.impress-enabled .step {
     margin: 0;
