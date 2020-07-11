@@ -3114,6 +3114,7 @@
     };
 
     Plugin.prototype.destroy = function (d) {
+        document.querySelector('body').classList.add("impress-enabled");
 
         var _this = this;
 

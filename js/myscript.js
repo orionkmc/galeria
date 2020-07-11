@@ -15,6 +15,18 @@ for (i = 0; i < img.length; i++) {
   });
 };
 
+// evitar que se desplace el body
+
+for (i = 0; i < inputs.length; i++) {
+  inputs[i].addEventListener('click', function(){
+    document.querySelector('body').addEventListener('touchmove', function(e){
+      if(!(e.target).classList.contains('.step')){
+        e.preventDefault()
+      }
+    })
+  })
+}
+
 
 // evaluar();
 // window.addEventListener('hashchange', function() {
@@ -91,16 +103,6 @@ for (i = 0; i < img.length; i++) {
 //   }
 // }
 
-// ocultar scroll
-
-// const img = document.querySelectorAll('.lightgallery');
-// const body = document.querySelector('body');
-
-// for (i = 0; i < img.length; i++) {
-//   img[i].addEventListener('click', function() {
-//     body.style.overflow = "hidden";
-//   });
-// };
 
 // galeria mobile
 
