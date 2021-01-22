@@ -1,4 +1,4 @@
-const inputs = document.querySelectorAll('.step');
+const inputs = document.querySelectorAll('.lightgallery');
 
 for (i = 0; i < inputs.length; i++) {
   lightGallery( inputs[i] );
@@ -28,6 +28,41 @@ for (i = 0; i < inputs.length; i++) {
 }
 
 
+/*evaluar();
+window.addEventListener('hashchange', function() {
+  evaluar();
+});
+
+function evaluar(e){
+  let a = location.href.split('#/')[1]
+  if (a == 'entrada') {
+    allBlock();
+    setTimeout(() => { 
+      allOpacity1()
+    }, 100);
+  } else if (a == 'pared2') {
+    allBlock();
+    document.querySelector('#entrada').style.opacity = "0";
+    setTimeout(() => { 
+      document.querySelector('#entrada').style.display = "none";
+    }, 500);
+  }
+}
+
+function allBlock(){
+  let inputs = document.querySelectorAll('.step');
+  for (i = 0; i < inputs.length; i++) {
+    inputs[i].style.display = "block";
+  }
+}
+
+function allOpacity1(){
+  let inputs = document.querySelectorAll('.step');
+  for (i = 0; i < inputs.length; i++) {
+    inputs[i].style.opacity = "1";
+  }
+}
+*/
 // evaluar();
 // window.addEventListener('hashchange', function() {
 //   evaluar();
