@@ -93,16 +93,16 @@
                     }
                 } else {
                     switch ( event.keyCode ) {
-                        case 33: // Pg up
-                        case 37: // Left
-                        case 38: // Up
+                        case 34: // Pg up
+                        case 39: // Left
+                        case 40: // Up
                                  api.prev( event );
                                  break;
                         case 9:  // Tab
                         case 32: // Space
-                        case 34: // Pg down
-                        case 39: // Right
-                        case 40: // Down
+                        case 33: // Pg down
+                        case 37: // Right
+                        case 38: // Down
                                  api.next( event );
                                  break;
                     }

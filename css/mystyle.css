@@ -220,22 +220,22 @@ figure img {
 }
 .img-content7 {
   position: absolute;
-  left: 15%;
+  left: -3%;
 }
 .img-content8 {
   position: absolute;
-  left: 15%;
+  left: -3%;
   top: 49%;
 }
 .img-content9 {
   position: absolute;
-  left: 15%;
+  left: -3%;
   top: 56%;
 }
 .img-content10 {
   position: absolute;
   top: 26%;
-  right: -20%;
+  left: 30%;
 }
 .img-content11{
   position: absolute;
@@ -279,7 +279,7 @@ figure img {
 .img-content19 {
   position: absolute;
   top: 12%;
-  right: -25%;
+  left: -52%;
 }
 .img-content20 {
   position: absolute;

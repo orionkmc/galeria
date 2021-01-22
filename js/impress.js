@@ -3274,16 +3274,16 @@
                     }
                 } else {
                     switch ( event.keyCode ) {
-                        case 33: // Pg up
+                        case 34: // Pg up
                         case 37: // Left
-                        case 38: // Up
+                        case 40: // Up
                                  api.prev( event );
                                  break;
                         case 9:  // Tab
                         case 32: // Space
-                        case 34: // Pg down
+                        case 33: // Pg down
                         case 39: // Right
-                        case 40: // Down
+                        case 38: // Down
                                  api.next( event );
                                  break;
                     }
@@ -3338,7 +3338,8 @@
 
                 // Find closest step element that is not active
                 while ( !( target.classList.contains( "step" ) &&
-                        !target.classList.contains( "active" ) ) &&
+                        !target.classList.contains( "active" ) && 
+                        !target.classList.contains( "prueba" ) ) &&
                         ( target !== document.documentElement ) ) {
                     target = target.parentNode;
                 }
@@ -3453,7 +3454,7 @@
             // As impress.js core now allows to dynamically edit the steps, including adding,
             // removing, and reordering steps, we need to requery and redraw the select list on
             // every stepenter event.
-            steps = root.querySelectorAll( '.step' );
+            steps = root.querySelectorAll( '.inselect' );
             select.innerHTML = '\n' + selectOptionsHtml();
 
             // Make sure the list always shows the step we're actually on, even if it wasn't
