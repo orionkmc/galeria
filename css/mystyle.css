@@ -8,7 +8,8 @@ body{
 
 @media(max-width: 767.98px){
   #impress {
-  perspective: 1300px !important;
+    perspective: 1300px !important;
+    transform: scale(0.651562) !important;
   }
 }
 .step{

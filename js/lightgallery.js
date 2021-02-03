@@ -255,9 +255,9 @@
         //aria-describedby attribute for gallery
         ariaDescribedby: '',
 
-        closable: true,
+        closable: false,
         loop: true,
-        escKey: true,
+        escKey: false,
         keyPress: true,
         controls: true,
         slideEndAnimatoin: true,
@@ -1862,9 +1862,9 @@
         //aria-describedby attribute for gallery
         ariaDescribedby: '',
 
-        closable: true,
+        closable: false,
         loop: true,
-        escKey: true,
+        escKey: false,
         keyPress: true,
         controls: true,
         slideEndAnimatoin: true,
