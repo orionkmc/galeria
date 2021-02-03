@@ -17,16 +17,16 @@ for (i = 0; i < img.length; i++) {
 
 // evitar que se desplace el body
 
-for (i = 0; i < inputs.length; i++) {
-  inputs[i].addEventListener('click', function(){
-    document.querySelector('body').addEventListener('touchmove', function(e){
-      console.log('me movi')
-      if(!(e.target).classList.contains('step')){
-        e.preventDefault()
-      }
-    })
-  })
-}
+// for (i = 0; i < inputs.length; i++) {
+//   inputs[i].addEventListener('click', function(){
+//     document.querySelector('body').addEventListener('touchmove', function(e){
+//       console.log('me movi')
+//       if(!(e.target).classList.contains('step')){
+//         e.preventDefault()
+//       }
+//     })
+//   })
+// }
 
 
 /*for (i = 0; i < inputs.length; i++) {
