@@ -23,18 +23,6 @@ body{
   background-color: gray;
   height: 60%;
 }
-figure a {
-  border: none;
-  background: none;
-  text-shadow: none;
-}
-figure a:hover {
-  background: none;
-  text-shadow: none;
-}
-figure img {
-  box-shadow: 0 0 40px gray;
-}
 .step {
   background-color: #f5f5f5;    
   background-size: cover;
@@ -167,7 +155,7 @@ figure img {
   top: 19%;
 }
 .datos-galeria {
-  margin-top: 2.2rem;
+  margin-top: 2.6rem;
 }
 .datos-galeria h2, h5 {
   margin: 0;
@@ -176,7 +164,7 @@ figure img {
   color: #202020;
 }
 .datos-galeria h2 {
-  font-size: 1.7em;
+  font-size: 1.2em;
   font-family: "Rhodium Libre", sans-serif;
   color: #345494;
   line-height: 1;
@@ -195,140 +183,27 @@ figure img {
   transform: translateZ(-1px);
   background-color: #f5f5f5;
 }
-.img-redonda {
-  border-radius: 50%;
-  box-shadow: 0 0 40px -4px gray;
+.lightgallery {
+  display: flex;
+  flex-wrap: wrap;
+  height: 540px;
 }
-.img-content1 {
-  margin: 0;
+#pared1 {
+  padding: 80px 0 80px 233.33px;
 }
-.img-content2 {
-  position: absolute;
-  top: 55%;
-  right: 0;
+#pared1 .figure {
+  width: calc(10% - 4px);
+  cursor: pointer;
+  margin: 2px;
+  height: calc(8.33% - 4px);
 }
-.img-content3 {
-  position: absolute;
-  top: 48%;
-  right: 32%;
+#pared2 {
+  padding: 80px 0 80px 0;
 }
-.img-content4 {
-  position: absolute;
-  top: 55%;
-  right: 32%;
+#pared2 .figure {
+  width: calc(6.66% - 4px);
+  cursor: pointer;
+  margin: 2px;
+  height: calc(8.33% - 4px);
 }
-.img-content5 {
-  position: absolute;
-  top: 30%;
-  right: 15%;
-}
-.img.content6 {
-  position: absolute;
-  left: 15%;
-}
-.img-content7 {
-  position: absolute;
-  left: -3%;
-}
-.img-content8 {
-  position: absolute;
-  left: -3%;
-  top: 49%;
-}
-.img-content9 {
-  position: absolute;
-  left: -3%;
-  top: 56%;
-}
-.img-content10 {
-  position: absolute;
-  top: 26%;
-  left: 30%;
-}
-.img-content11{
-  position: absolute;
-  top: 21%;
-  left: -6%;
-}
-.img-content12 {
-  position: absolute;
-  bottom: 30px;
-  right: 6%;
-}
-.img-content13 {
-  position: absolute;
-  top: 25%;
-  right: 15%;
-}
-.img-content14 {
-  position: absolute;
-  right: 6%;
-  top: 49%;
-}
-.img-content15 {
-  position: absolute;
-  right: 0;
-  top: 46%;
-}
-.img-content16 {
-  position: absolute;
-  right: 22%;
-}
-.img-content17 {
-  position: absolute;
-  top: 46%;
-  left: 17%;
-}
-.img-content18 {
-  position: absolute;
-  top: 53%;
-  left: 17%;
-}
-.img-content19 {
-  position: absolute;
-  top: 12%;
-  left: -52%;
-}
-.img-content20 {
-  position: absolute;
-  left: 22%;
-}
-.img-content21 {
-  position: absolute;
-  top: 35%;
-  left: 0%;
-}
-.img-content22 {
-  position: absolute;
-  top: 55%;
-  left: 25%;
-}
-.img-content23 {
-  position: absolute;
-  top: 34%;
-  right: 10%;
-}
-.img-content24 {
-  position: absolute;
-  top: 60%;
-  right: 41%;
-}
-.img-content25 {
-  position: absolute;
-  top: 37%;
-  left: 17%;
-}
-.img-content26 {
-  position: absolute;
-  top: 25%;
-  right: -21%;
-}
-.img-content27 {
-  position: absolute;
-  top: 25%;
-}
-.img-content28 {
-  position: absolute;
-  top: 53%;
-  left: 0%;
-}
+
