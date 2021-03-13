@@ -74,15 +74,27 @@
 
       <div id="pared1" class="step pared inselect list-unstyled row" data-x="-691" data-y="0" data-z="-350" data-rotate-y="90" data-scale="1">
         <div class="lightgallery">
-          <div
-            class="figure"
-            data-responsive="img/rostro.jpg 375, img/rostro.jpg 480, img/rostro.jpg 800"
-            data-src="img/puerta.jpg"
-            data-sub-html="<h4>Titulo de la obra</h4><p>Descripción de la obra</p>"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="img/rostro.jpg" alt="" width="100%" height= "100%";>
-          </div>
+
+          <?php
+              $directory="img";
+              $dirint = dir($directory);
+              while (($archivo = $dirint->read()) !== false)
+              {
+                  echo '
+                    <div
+                      class="figure"
+                      data-responsive="img/rostro.jpg 375, img/rostro.jpg 480, img/rostro.jpg 800"
+                      data-src="'.$directory."/".$archivo.'"
+                      data-sub-html="<h4>Titulo de la obra</h4><p>Descripción de la obra</p>"
+                      data-pinterest-text="Pin it1"
+                      data-tweet-text="share on twitter 1">
+                      <img class="img-responsive" src="'.$directory."/".$archivo.'" alt="" width="100%" height= "100%";>
+                    </div>
+                  ';
+              }
+              $dirint->close();
+          ?>
+          
         </div>
       </div>
 
