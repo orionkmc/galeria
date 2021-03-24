@@ -206,4 +206,23 @@ body{
   margin: 2px;
   height: calc(8.33% - 4px);
 }
-
+#pared3,
+#pared4 {
+  padding: 80px 0 80px 0;
+}
+#pared3 .figure,
+#pared4 .figure {
+  width: calc(6.66% - 4px);
+  cursor: pointer;
+  margin: 2px;
+  height: calc(8.33% - 4px);
+}
+#pared5 {
+  padding: 80px 233.33px 80px 0;
+}
+#pared5 .figure {
+  width: calc(9.09% - 4px);
+  cursor: pointer;
+  margin: 2px;
+  height: calc(8.33% - 4px);
+}

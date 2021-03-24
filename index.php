@@ -86,9 +86,8 @@
                 echo '
                   <div
                     class="figure"
-                    data-responsive="img/rostro.jpg 375, img/rostro.jpg 480, img/rostro.jpg 800"
+                    data-responsive="'.$directory2."/".$archivo.'"
                     data-src="'.$directory."/".$archivo.'"
-                    data-sub-html="<h4>Titulo de la obra</h4><p>Descripción de la obra</p>"
                     data-pinterest-text="Pin it1"
                     data-tweet-text="share on twitter 1">
                     <img class="img-responsive" src="'.$directory2."/".$archivo.'" alt="" width="100%" height= "100%";>
@@ -115,9 +114,8 @@
                 echo '
                   <div
                     class="figure"
-                    data-responsive="img/rostro.jpg 375, img/rostro.jpg 480, img/rostro.jpg 800"
+                    data-responsive="'.$directory2."/".$archivo.'"
                     data-src="'.$directory."/".$archivo.'"
-                    data-sub-html="<h4>Titulo de la obra</h4><p>Descripción de la obra</p>"
                     data-pinterest-text="Pin it1"
                     data-tweet-text="share on twitter 1">
                     <img class="img-responsive" src="'.$directory2."/".$archivo.'" alt="" width="100%" height= "100%";>
@@ -132,19 +130,82 @@
 
       <div id="pared3" class="step pared inselect list-unstyled row" data-x="-343" data-y="0" data-z="-1396" data-rotate-y="0" data-scale="1">
         <div class="lightgallery">
-          
+          <?php
+            $directory="img/pared3";
+            $directory2="img/pared3/trumb";
+            $dirint = dir($directory);
+            while (($archivo = $dirint->read()) !== false)
+            {
+              if (preg_match( '/\.(?:jpe?g|png|gif)$/i', $archivo)) 
+              {
+                echo '
+                  <div
+                    class="figure"
+                    data-responsive="'.$directory2."/".$archivo.'"
+                    data-src="'.$directory."/".$archivo.'"
+                    data-pinterest-text="Pin it1"
+                    data-tweet-text="share on twitter 1">
+                    <img class="img-responsive" src="'.$directory2."/".$archivo.'" alt="" width="100%" height= "100%";>
+                  </div>
+                ';
+               }
+              }
+            $dirint->close();
+          ?>
         </div>
       </div>
 
       <div id="pared4" class="step pared inselect list-unstyled row" data-x="355" data-y="0" data-z="-1396" data-rotate-y="0" data-scale="1">
         <div class="lightgallery">
-          
+          <?php
+            $directory="img/pared4";
+            $directory2="img/pared4/trumb";
+            $dirint = dir($directory);
+            while (($archivo = $dirint->read()) !== false)
+            {
+              if (preg_match( '/\.(?:jpe?g|png|gif)$/i', $archivo)) 
+              {
+                echo '
+                  <div
+                    class="figure"
+                    data-responsive="'.$directory2."/".$archivo.'"
+                    data-src="'.$directory."/".$archivo.'"
+                    data-pinterest-text="Pin it1"
+                    data-tweet-text="share on twitter 1">
+                    <img class="img-responsive" src="'.$directory2."/".$archivo.'" alt="" width="100%" height= "100%";>
+                  </div>
+                ';
+               }
+              }
+            $dirint->close();
+          ?>
         </div>
       </div>
 
       <div id="pared5" class="step pared inselect list-unstyled row" data-x="1053" data-y="0" data-z="-1396" data-rotate-y="0" data-scale="1">
         <div class="lightgallery">
-          
+          <?php
+            $directory="img/pared5";
+            $directory2="img/pared5/trumb";
+            $dirint = dir($directory);
+            while (($archivo = $dirint->read()) !== false)
+            {
+              if (preg_match( '/\.(?:jpe?g|png|gif)$/i', $archivo)) 
+              {
+                echo '
+                  <div
+                    class="figure"
+                    data-responsive="'.$directory2."/".$archivo.'"
+                    data-src="'.$directory."/".$archivo.'"
+                    data-pinterest-text="Pin it1"
+                    data-tweet-text="share on twitter 1">
+                    <img class="img-responsive" src="'.$directory2."/".$archivo.'" alt="" width="100%" height= "100%";>
+                  </div>
+                ';
+               }
+              }
+            $dirint->close();
+          ?>
         </div>
       </div>
 
