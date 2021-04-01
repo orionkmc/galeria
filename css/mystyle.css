@@ -189,10 +189,10 @@ body{
   height: 540px;
 }
 #pared1 {
-  padding: 80px 0 80px 233.33px;
+  padding: 80px 0 80px 94.33px;
 }
 #pared1 .figure {
-  width: calc(10% - 4px);
+  width: calc(7.69% - 4px);
   cursor: pointer;
   margin: 2px;
   height: calc(8.33% - 4px);
@@ -218,11 +218,16 @@ body{
   height: calc(8.33% - 4px);
 }
 #pared5 {
-  padding: 80px 233.33px 80px 0;
+  padding: 80px 94.33px 80px 0;
 }
 #pared5 .figure {
-  width: calc(9.09% - 4px);
+  width: calc(7.69% - 4px);
   cursor: pointer;
   margin: 2px;
   height: calc(8.33% - 4px);
+}
+.img_titulo {
+  height: 80%;
+  position: absolute;
+  left: 40%;
 }
