@@ -213,7 +213,16 @@
       </div>
 
       <div id="pared7" class="step pared inselect list-unstyled row" data-x="1398" data-y="0" data-z="-348" data-rotate-y="-90" data-scale="1">
-        <img src="img/gabinetederostros.png" alt="gabinete_rostros" class="img_titulo">
+        <div class="lightgallery">
+          <div
+            class="figure"
+            data-responsive="img/gabinetederostros.png"
+            data-src="img/gabinetederostros.png"
+            data-pinterest-text="Pin it1"
+            data-tweet-text="share on twitter 1">
+            <img class="img_titulo img-responsive" src="img/gabinetederostros.png" alt="">
+          </div>
+        </div>
       </div>
 
       <div id="pared8" class="step pared inselect list-unstyled row" data-x="1049" data-y="0" data-z="0" data-rotate-y="-180" data-scale="1">

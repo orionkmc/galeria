@@ -227,7 +227,8 @@ body{
   height: calc(8.33% - 4px);
 }
 .img_titulo {
-  height: 80%;
+  height: 82%;
   position: absolute;
   right: 40%;
+  top: 10%;
 }
