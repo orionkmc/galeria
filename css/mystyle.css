@@ -229,6 +229,7 @@ body{
 .img_titulo {
   height: 82%;
   position: absolute;
-  right: 40%;
   top: 10%;
+  right: 6%;
+  width: 1300px;
 }
